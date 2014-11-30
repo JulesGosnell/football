@@ -19,13 +19,13 @@ import org.junit.Test;
  */
 public class FootballTest {
 
-	public static final String DATA_DIR = "src/test/resources";
-	public static final String DATA_FILE = "football.dat";
+    public static final String DATA_DIR = "src/test/resources";
+    public static final String DATA_FILE = "football.dat";
 
-	@Test
-	public void test() throws IOException {
-		assertEquals(Optional.of(new TeamGoals("Aston_Villa", 1)),
-				Football.extractMinimumTeamGoals("src/test/resources", "football.dat"));
-	}
+    @Test
+    public void test() throws IOException {
+	assertEquals(Optional.of(new TeamGoals("Aston_Villa", 1)),
+		     Football.extractMinimumTeamGoals("src/test/resources", "football.dat"));
+    }
 
 }
