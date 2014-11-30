@@ -2,6 +2,7 @@ football
 ========
 
 Java 8 and Apache Maven required.
+Commands should be run from top-level directory.
 
 - Build / Test:
 
